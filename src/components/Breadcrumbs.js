@@ -7,7 +7,7 @@ import s from '../styles/style';
 const breadCrumbTitles = {
   '': 'Home',
   example: 'Example',
-  'two-deep': 'Two Deep',
+  step1: 'Step 1'
 };
 
 function BreadcrumbsItem({ match }) {

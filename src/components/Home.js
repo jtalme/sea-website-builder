@@ -16,30 +16,28 @@ export default function Home() {
   return (
     <div>
       <p style={s.p}>
-        This is an example single page app built
-        with React and React&nbsp;Router using {' '}
-        <Code>BrowserRouter</Code>. Navigate with the links below and
-        refresh the page or copy/paste the url to test out the redirect
-        functionality deployed to overcome GitHub&nbsp;Pages incompatibility
-        with single page apps (like this one).
+        This is a tutorial for building a website, specificlally for a science 
+        project, but you could put anything you'd like to show the world on your 
+        site. Hopefully you'll learn some HTML and CSS along the way, and be 
+        inspired to continue learning more about web development.
       </p>
       <p style={s.p}>
-        Please see the {repoReadmeLink('repo readme')} for instructions on how to
-        use this boilerplate to deploy your own single page app using GitHub Pages.
+        Check out the example site below to get a better idea of what you'll be
+        building, or continue on to Step 1 to get started!
       </p>
       <div style={s.pageLinkContainer}>
         <Interactive
           as={Link}
           {...s.link}
-          to="/example"
-        >Example page</Interactive>
+          to="/example-site"
+        >Example Project: Volcano goes Boom!</Interactive>
       </div>
       <div style={s.pageLinkContainer}>
         <Interactive
           as={Link}
           {...s.link}
-          to="/example/two-deep?field1=foo&field2=bar#boom!"
-        >Example two deep with query and hash</Interactive>
+          to="/step1"
+        >Step 1: Project Setup</Interactive>
       </div>
     </div>
   );
