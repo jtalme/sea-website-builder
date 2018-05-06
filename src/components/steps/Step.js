@@ -3,17 +3,11 @@ import Interactive from 'react-interactive';
 import { Switch, Route, Link } from 'react-router-dom';
 import PageNotFound from '../PageNotFound';
 import s from '../../styles/step.style'
-import Step1 from './Step1';
-import Step2 from './Step2';
-
-const Steps = {
-  1: Step1,
-  2: Step2
-}
+import StepsMap from './Steps'
 
 export default function Step({ match }) {
   const stepNum = match.params.stepNum;
-  const StepToRender = Steps[stepNum];
+  const StepToRender = StepsMap[stepNum];
   const nextStep = "/steps/" + (Number(stepNum) + 1);
   console.log(nextStep);
 
