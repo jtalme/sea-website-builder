@@ -1,6 +1,7 @@
 import React from 'react';
 import Interactive from 'react-interactive';
 import { Switch, Route, Link } from 'react-router-dom';
+import ForwardBack from '../ForwardBack'
 import PageNotFound from '../PageNotFound';
 import s from '../../styles/step.style'
 import { StepsMap } from './Steps'
@@ -16,14 +17,8 @@ export default function Step({ match }) {
         path={'/steps/' + stepNum}
         render={() => (
           <div>
-            <StepToRender/>
-            <div style={s.pageLinkContainer}>
-              <Interactive
-                as={Link}
-                {...s.link}
-                to={nextStep}
-              >Next Step</Interactive>
-            </div>
+            <StepToRender />
+            <ForwardBack match={ match }/>
           </div>
         )}
       />
