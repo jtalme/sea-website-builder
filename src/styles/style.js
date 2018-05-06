@@ -3,19 +3,19 @@ import PropTypes from 'prop-types';
 
 const link = {
   normal: {
-    borderBottom: '1px dotted rgb(0, 168, 0)',
+    borderBottom: '1px dotted rgb(0, 0, 0)',
   },
   hover: {
-    borderBottom: '1px solid rgb(0, 168, 0)',
+    borderBottom: '1px solid rgb(0, 0, 0)',
     color: 'black',
   },
   active: 'hover',
   touchActive: {
-    borderBottom: '1px dashed rgb(0, 168, 0)',
+    borderBottom: '1px dashed rgb(0, 0, 0)',
     color: 'black',
   },
   focusFromTab: {
-    outline: '2px solid rgb(0, 152, 0)',
+    outline: '2px solid rgb(0, 0, 0)',
     outlineOffset: '2px',
     color: 'black',
   },

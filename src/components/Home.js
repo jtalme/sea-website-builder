@@ -5,14 +5,6 @@ import { Code } from '../styles/style';
 import s from '../styles/home.style';
 
 export default function Home() {
-  const repoReadmeLink = text => (
-    <Interactive
-      as="a"
-      {...s.link}
-      href="https://github.com/rafrex/spa-github-pages#readme"
-    >{text}</Interactive>
-  );
-
   return (
     <div>
       <p style={s.p}>
@@ -29,14 +21,14 @@ export default function Home() {
         <Interactive
           as={Link}
           {...s.link}
-          to="/example-site"
+          to="/example"
         >Example Project: Volcano goes Boom!</Interactive>
       </div>
       <div style={s.pageLinkContainer}>
         <Interactive
           as={Link}
           {...s.link}
-          to="/step1"
+          to="/steps/1"
         >Step 1: Project Setup</Interactive>
       </div>
     </div>

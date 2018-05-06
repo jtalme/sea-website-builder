@@ -7,11 +7,14 @@ import s from '../styles/style';
 const breadCrumbTitles = {
   '': 'Home',
   example: 'Example',
-  step1: 'Step 1'
-};
+  steps: 'Steps',
+  '1': 'Step 1',
+  '2': 'Step 2'
+}
 
 function BreadcrumbsItem({ match }) {
   const title = breadCrumbTitles[match.url.split('/').slice(-1)];
+  console.log(title);
   const to = title === undefined ? '/' : match.url;
 
   return (

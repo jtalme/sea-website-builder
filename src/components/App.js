@@ -2,7 +2,9 @@ import React from 'react';
 import Interactive from 'react-interactive';
 import { Switch, Route } from 'react-router-dom';
 import Home from './Home';
-import Step1 from './Step1';
+import Example from './Example';
+import Steps from './Steps';
+import Step from './Step';
 import PageNotFound from './PageNotFound';
 import Breadcrumbs from './Breadcrumbs';
 import s from '../styles/app.style';
@@ -24,7 +26,9 @@ export default function App() {
 
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route exact path="/step1" component={Step1} />
+        <Route exact path="/example" component={Example} />
+        <Route exact path="/steps" component={Steps} />
+        <Route path="/steps/:stepNum" component={Step} />
         <Route component={PageNotFound} />
       </Switch>
     </div>
