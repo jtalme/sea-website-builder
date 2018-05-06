@@ -9,7 +9,30 @@ import PageNotFound from './PageNotFound';
 import Breadcrumbs from './Breadcrumbs';
 import s from '../styles/app.style';
 
-export default function App() {
+function AppRouter() {
+  return (
+    <Switch>
+      <Route exact path="/" component={Home} />
+      <Route exact path="/example" component={Example} />
+      <Route exact path="/steps" component={Steps} />
+      <Route path="/steps/:stepNum" component={Step} />
+      <Route component={PageNotFound} />
+    </Switch>
+  );
+}
+
+export default function App({ match }) {
+  console.log(match);
+
+  // super hacky way to keep app styles off the example page
+  if (window.location.href.indexOf("example") > -1) {
+    return (
+      <div style={s.example}>
+        <AppRouter />
+      </div>
+    );
+  }
+
   return (
     <div style={s.root}>
       <h1 style={s.title}>SEA Website Tutorial</h1>
@@ -24,13 +47,7 @@ export default function App() {
         <Breadcrumbs />
       </nav>
 
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/example" component={Example} />
-        <Route exact path="/steps" component={Steps} />
-        <Route path="/steps/:stepNum" component={Step} />
-        <Route component={PageNotFound} />
-      </Switch>
+      <AppRouter />
     </div>
   );
 }

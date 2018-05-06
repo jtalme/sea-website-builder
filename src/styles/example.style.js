@@ -10,7 +10,8 @@ s.body =  {
   fontFamily: 'Gothic A1, sans-serif',
   margin: 'auto',
   width: '1200px',
-  backgroundColor: '#f99a6b'
+  backgroundColor: '#F0F0F0',
+  paddingBottom: '100px'
 }
 
 s.h2 = {
@@ -24,7 +25,9 @@ s.center = {
 
 s.title = {
   textAlign: 'center',
-  paddingTop: '50px'
+  paddingTop: '50px',
+  fontSize: '40px',
+  fontWeight: '600'
 }
 
 s.subtitle = {

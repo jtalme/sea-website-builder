@@ -2,7 +2,6 @@ import React from 'react';
 import Interactive from 'react-interactive';
 import { Switch, Route, Link } from 'react-router-dom';
 import PageNotFound from './PageNotFound';
-import { Code } from '../styles/style';
 import s from '../styles/example.style';
 
 const ExampleSiteText = () => (
