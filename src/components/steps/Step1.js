@@ -1,7 +1,7 @@
 import React from 'react';
 import Interactive from 'react-interactive';
-import { Code } from '../styles/style';
-import s from '../styles/step.style';
+import { Code } from '../../styles/style';
+import s from '../../styles/step.style';
 
 export default function Step1() {
   return (
