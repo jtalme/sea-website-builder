@@ -1,11 +1,13 @@
 import React from 'react';
 import Interactive from 'react-interactive';
 import { Switch, Route, Link } from 'react-router-dom';
+import Breadcrumbs from './Breadcrumbs';
 import PageNotFound from './PageNotFound';
 import s from '../styles/example.style';
 
 const ExampleSiteText = () => (
   <div style={Object.assign(s.body, s.center)}>
+    <Breadcrumbs />
     <h1 style={s.title}>Exploding Volcano!</h1>
     <h3 style={s.subtitle}>by Jon Alme</h3>
     <img style={Object.assign(s.img, s.center)} src="https://media.gettyimages.com/photos/new-jersey-jersey-city-close-up-of-model-with-award-ribbon-picture-id114849068"/>
