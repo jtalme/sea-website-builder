@@ -3,7 +3,7 @@ import Interactive from 'react-interactive';
 import { Code } from '../../styles/style';
 import s from '../../styles/step.style';
 
-export default function Step1() {
+export default function Step2() {
   return (
     <div>
       <h3>HTML Overview</h3>
