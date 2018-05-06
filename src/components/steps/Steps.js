@@ -27,7 +27,7 @@ export default function Steps() {
   let stepLinks = {};
 
   stepLinks = Object.keys(StepsMap).map(function(key) {
-      return <div style={s.pageLinkContainer}>
+      return <div style={s.pageLinkContainer} key={key}>
                <Interactive
                  as={Link}
                  {...s.link}
