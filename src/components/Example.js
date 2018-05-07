@@ -8,7 +8,7 @@ import s from '../styles/example.style';
 const ExampleSiteText = () => (
   <div className="container">
     <Breadcrumbs />
-    <h1 style={s.title}>BBQ Makes me Slow!</h1>
+    <h1 style={s.title}>BBQ makes me slow!</h1>
     <h3 style={s.subtitle}>by Jon Alme</h3>
     <img style={Object.assign(s.img, s.center)} src="https://media.giphy.com/media/Nq8TE2Wo5Yg3m/giphy.gif"/>
     <img style={Object.assign(s.img, s.center)} src="https://media.giphy.com/media/jfTDrYfZvlZja/giphy.gif"/>

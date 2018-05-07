@@ -22,7 +22,7 @@ export default function Home() {
           as={Link}
           {...s.link}
           to="/example"
-        >Example Project: Volcano goes Boom!</Interactive>
+        >Example Project: BBQ makes me slow!</Interactive>
       </div>
       <div style={s.pageLinkContainer}>
         <Interactive
