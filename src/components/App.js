@@ -22,8 +22,6 @@ function AppRouter() {
 }
 
 export default function App({ match }) {
-  console.log(match);
-
   // super hacky way to keep app styles off the example page
   if (window.location.href.indexOf("example") > -1) {
     return (

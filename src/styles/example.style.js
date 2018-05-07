@@ -14,10 +14,6 @@ s.body =  {
   paddingBottom: '100px'
 }
 
-s.h2 = {
-  paddingTop: '10px'
-}
-
 s.center = {
   display: 'block',
   margin: 'auto'

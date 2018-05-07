@@ -31,7 +31,7 @@ export default function Steps() {
                <Interactive
                  as={Link}
                  {...s.link}
-                 to={'/step/' + key}
+                 to={'/steps/' + key}
                >Step {key}</Interactive>
              </div>
       });

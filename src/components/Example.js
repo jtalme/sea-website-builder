@@ -6,50 +6,98 @@ import PageNotFound from './PageNotFound';
 import s from '../styles/example.style';
 
 const ExampleSiteText = () => (
-  <div style={Object.assign(s.body, s.center)}>
+  <div className="container">
     <Breadcrumbs />
-    <h1 style={s.title}>Exploding Volcano!</h1>
+    <h1 style={s.title}>BBQ Makes me Slow!</h1>
     <h3 style={s.subtitle}>by Jon Alme</h3>
-    <img style={Object.assign(s.img, s.center)} src="https://media.gettyimages.com/photos/new-jersey-jersey-city-close-up-of-model-with-award-ribbon-picture-id114849068"/>
-    <h2>Summary</h2>
+    <img style={Object.assign(s.img, s.center)} src="https://media.giphy.com/media/Nq8TE2Wo5Yg3m/giphy.gif"/>
+    <img style={Object.assign(s.img, s.center)} src="https://media.giphy.com/media/jfTDrYfZvlZja/giphy.gif"/>
+    <img style={Object.assign(s.img, s.center)} src="https://media.giphy.com/media/AZA94nmAWWF4k/giphy.gif"/>
+    <h2>Hypothesis</h2>
     <p>
-      I made a volcano explode, because that's what volcanoes do, and when
-      I poured the vinegar on the baking soda it went boom.
+      I hypothesize that with every 6 ribs I eat, my 40 yard dash will slow down by 3 seconds.
     </p>
-    <h2>Construction</h2>
+    <h2>Experiment Design</h2>
+    <p>
+      To better understand the rate at which BBQ makes me slow, I'm going to run a 40 yard
+      dash after every 6 ribs I eat. I'll leave myself a generous window of 10 minutes to eat
+      the next set of ribs and recover from the previous sprint. The experiment will begin when
+      the ribs are done cooking, at which point I will run a 40 yard dash prior to eating
+      any food, which will serve as the control. I will then eat 6 ribs, and run a 40 yard dash
+      4 times, totalling two racks of ribs, and 5 40 yard dashes including the initial control
+      sprint.
+    </p>
+    <h2>Variables</h2>
     <ul>
-      <li>
-        Step 1: Build a clay volcano around a small plastic water bottle.
-        Be sure to leave the opening of the water bottle exposed so we
-        can add "lava" later.
-      </li>
-      <li>
-        Step 2: Add water, baking soda, and dish soap to the water bottle.
-      </li>
-      <li>Step 3: Put safety glasses on since magic is dangerous.</li>
-      <li>Step 4: Finally, add vinegar to the water bottle.</li>
-      <li>Step 5: Watch the magic</li>
+      <li><b>Ribs eaten:</b> over time the number of ribs eaten will increase.</li>
+      <li><b>Water:</b> I'll need to hydrate in between sprints, and will by hydrating to comfort level rather than a perscribed amount of volume.</li>
+      <li><b>Sprints completed (fatigue):</b> I'll be running more and more as the experiment continues. This could create fatigue that affects later sprints.</li>
+      <li><b>Atmosphere:</b> we can't control the weather, and its possible wind or rain could affect running conditions</li>
     </ul>
-    <h2>Background</h2>
-    <p>
-      Volcanic eruptions are the result of a buildup of pressure caused by magma
-      and gas seeping through the earth's crust. Eruptions usually coincide with
-      tectonic activity such as earthquakes.
-    </p>
-    <h2>Learnings</h2>
-    <p>The most important lesson I learned is that magic is dangerous!</p>
-    <p>
-      Baking soda, dish soap, and water represent a buildup of magma under the
-      earth's surface. Adding vinegar is similar to tectonic activity that weakens
-      the earths crust, giving the magma a path to the earth's surface where it
-      erupts out of the volcano.
-    </p>
+    <h2>Materials and Construction</h2>
+    <ul>
+      <li><b>Ribs! and BBQ sauce</b> Sweet, sweet, running fuel.</li>
+      <li><b>Water:</b> for hydration.</li>
+      <li><b>Grill or oven:</b> some device to cook the ribs with.</li>
+      <li><b>Workout gear:</b> I don't run in my grilling apron after all (at least not intentionally).</li>
+      <li><b>Stopwatch:</b> to time the sprints with.</li>
+      <li><b>Cones:</b> to setup 40 yards apart so I know how far to run.</li>
+      <li><b>Measuring device:</b> so the cones get set exactly 40 yards apart (I don't want to run 41 yards after eating 2 racks of ribs).</li>
+    </ul>
+    <h2>Data</h2>
+    <table className="table">
+      <thead>
+        <tr>
+          <th scope="col">Run #</th>
+          <th scope="col">Ribs Eaten</th>
+          <th scope="col">Run time (40 yard dash)</th>
+          <th scope="col">Feeling (as described by text emoji)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>0</td>
+          <td>5.1</td>
+          <td>:D</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>6</td>
+          <td>5.5</td>
+          <td>:|</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>12</td>
+          <td>5.75</td>
+          <td>:/</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>18</td>
+          <td>5.5</td>
+          <td>>:o</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>24</td>
+          <td>4.9</td>
+          <td>>:{'{}'}==</td>
+        </tr>
+      </tbody>
+    </table>
     <h2>Next Steps</h2>
     <p>
-      When volcanoes erupt they fill the atmosphere with ash and dust that can be
-      harmful to wildlife, humans, and even aircraft. If I had more time I would
-      simulate this by flying a remote control plane through my erupting volcano.
+      Brisket! I hypothesize BBQ brisket will make me even faster!
     </p>
+    <p>
+      I suspect one control run isn't enough. If I were to conduct this
+      experiment again I would perform 5 sprints with 10 minutes rests with
+      adequate hydration inbetween, but no BBQ, to see if my speed in the
+      40 yard dash changed.
+    </p>
+    <Breadcrumbs />
   </div>
 );
 
