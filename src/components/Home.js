@@ -20,14 +20,12 @@ export default function Home() {
       <div style={s.pageLinkContainer}>
         <Interactive
           as={Link}
-          {...s.link}
           to="/example"
         >Example Project: BBQ makes me slow!</Interactive>
       </div>
       <div style={s.pageLinkContainer}>
         <Interactive
           as={Link}
-          {...s.link}
           to="/steps/1"
         >Step 1: Project Setup</Interactive>
       </div>

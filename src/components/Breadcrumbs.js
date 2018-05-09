@@ -26,7 +26,6 @@ function BreadcrumbsItem({ match }) {
     <span>
       <Interactive
         as={Link}
-        {...s.link}
         to={to}
       >{title || 'Page Not Found'}</Interactive>
       {!match.isExact && title && ' / '}

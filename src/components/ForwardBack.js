@@ -15,7 +15,6 @@ export default function ForwardBack({ match }) {
       <span>&larr; </span>
       <Interactive
         as={Link}
-        {...s.link}
         to={previousStep}
       >Previous Step</Interactive>
     </span>
@@ -27,7 +26,6 @@ export default function ForwardBack({ match }) {
     <span>
       <Interactive
         as={Link}
-        {...s.link}
         to={nextStep}
       >Next Step</Interactive>
       <span> &rarr;</span>
