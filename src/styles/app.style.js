@@ -4,7 +4,7 @@ const s = Object.create(style);
 
 s.root = {
   padding: '3vh 0 12vh 0',
-  width: '500px',
+  width: '800px',
   // use responsive max-width to simulate padding/margin to allow
   // space for vertical scroll bar without creating horizontal scroll bar
   // (if there is padding, the window will scroll horizontally to show the padding)

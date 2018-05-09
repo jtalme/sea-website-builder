@@ -7,7 +7,9 @@ import s from '../styles/example.style';
 
 const ExampleSiteText = () => (
   <div className="container">
-    <Breadcrumbs />
+    <nav style={s.breadcrumbs}>
+      <Breadcrumbs />
+    </nav>
     <h1 style={s.title}>BBQ makes me slow!</h1>
     <h3 style={s.subtitle}>by Jon Alme</h3>
     <img style={Object.assign(s.img, s.center)} src="https://media.giphy.com/media/Nq8TE2Wo5Yg3m/giphy.gif"/>
@@ -89,15 +91,14 @@ const ExampleSiteText = () => (
     </table>
     <h2>Next Steps</h2>
     <p>
-      Brisket! I hypothesize BBQ brisket will make me even faster!
-    </p>
-    <p>
       I suspect one control run isn't enough. If I were to conduct this
       experiment again I would perform 5 sprints with 10 minutes rests with
       adequate hydration inbetween, but no BBQ, to see if my speed in the
       40 yard dash changed.
     </p>
-    <Breadcrumbs />
+    <nav style={s.breadcrumbs}>
+      <Breadcrumbs />
+    </nav>
   </div>
 );
 

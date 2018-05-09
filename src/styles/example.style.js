@@ -1,8 +1,10 @@
-//import style from './style';
-
 const s = {};
 
 s.lineContainer = {
+  margin: '3vh 0',
+};
+
+s.breadcrumbs = {
   margin: '3vh 0',
 };
 
@@ -21,7 +23,6 @@ s.center = {
 
 s.title = {
   textAlign: 'center',
-  paddingTop: '50px',
   fontSize: '40px',
   fontWeight: '600'
 }

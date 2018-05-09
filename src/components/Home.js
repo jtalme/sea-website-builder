@@ -8,10 +8,11 @@ export default function Home() {
   return (
     <div>
       <p style={s.p}>
-        This is a tutorial for building a website, specificlally for a science 
-        project, but you could put anything you'd like to show the world on your 
-        site. Hopefully you'll learn some HTML and CSS along the way, and be 
-        inspired to continue learning more about web development.
+        This is a tutorial to build a website for a science project, the steps are
+        geared towards the primary sections of a science report: hypothesis, procedure,
+        data, and conclusion, but feel free to add as much content as you'd like!
+        Hopefully you'll learn some HTML and CSS along the way, and be inspired to
+        continue learning more about web development.
       </p>
       <p style={s.p}>
         Check out the example site below to get a better idea of what you'll be

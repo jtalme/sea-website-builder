@@ -17,8 +17,9 @@ export default function Step({ match }) {
         path={'/steps/' + stepNum}
         render={() => (
           <div>
+            <ForwardBack style={s.forwardBack} match={ match }/>
             <StepToRender />
-            <ForwardBack match={ match }/>
+            <ForwardBack style={s.forwardBack} match={ match }/>
           </div>
         )}
       />

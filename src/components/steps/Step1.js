@@ -14,9 +14,21 @@ export default function Step1() {
       </p>
       <Interactive
         as="a"
-        {...s.link}
         href="https://www.google.com/chrome"
       >Download Chrome</Interactive>
+      <p style={s.p}>
+        Its also useful to have a nice Text Editor that will allow us to edit
+        and modify files while we create our website. Sublime Text is a popular
+        choice, but you're free to use whatever you'd like.
+      </p>
+      <Interactive
+        as="a"
+        href="https://www.sublimetext.com/3"
+      >Download Sublime Text</Interactive>
+      <p style={s.p}>
+        Continue on to the next step to learn more about HTML and CSS,
+        programming languages we'll be using to build your website.
+      </p>
     </div>
   );
 }

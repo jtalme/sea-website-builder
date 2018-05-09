@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Route, Link } from 'react-router-dom';
 import Interactive from 'react-interactive';
-import s from '../styles/style';
+import s from '../styles/step.style';
 
 export default function ForwardBack({ match }) {
 
