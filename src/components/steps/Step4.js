@@ -7,12 +7,12 @@ import s from '../../styles/step.style';
 export default function Step4() {
   return (
     <div>
-      <h3>Adding a Title and Viewing our Site</h3>
+      <h3>Adding a Title and Viewing your Site</h3>
       <p style={s.p}>
         Lets open our <code>site.html</code> file with Sublime Text:
       </p>
       <ul>
-        <li>navigate to your Desktop/science project site folder</li>
+        <li>navigate to your <code>Desktop/science project site</code> folder</li>
         <li>right-click the <code>site.html</code> file, and select "open with"</li>
         <li>from the list of applications, chose "Sublime Text"</li>
       </ul>
@@ -41,7 +41,7 @@ export default function Step4() {
       <h5>Which title is which?</h5>
       <p style={s.p}>
         Change the text in the <code>title</code> tag, and the <code>h1</code> tag
-        to figure out which title corresponds to the browser tab, the the title
+        to figure out which title corresponds to the browser tab, and the title
         on the web page.
       </p>
       <p style={s.p}>

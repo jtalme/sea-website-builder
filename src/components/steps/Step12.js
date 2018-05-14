@@ -4,7 +4,7 @@ import Gist from 'react-gist';
 import { Code } from '../../styles/style';
 import s from '../../styles/step.style';
 
-export default function Step8() {
+export default function Step12() {
   return (
     <div>
       <h3>Ordered List of Setup Steps</h3>
@@ -21,7 +21,7 @@ export default function Step8() {
       <p style={s.p}>
         The <code>&lt;ol&gt;</code> tag stands
         for ordered list, and causes the <code>&lt;li&gt;</code> (list item) tags to
-        render with a number prefix to more clearly show their order.
+        render with a number prefix to more clearly show the order.
       </p>
       <p style={s.p}>
         Lets take a breath to apply some styling before we continue adding more content.

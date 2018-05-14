@@ -32,20 +32,41 @@ const ExampleSiteText = () => (
     <h2>Variables</h2>
     <ul>
       <li><b>Ribs eaten:</b> over time the number of ribs eaten will increase.</li>
-      <li><b>Water:</b> I'll need to hydrate in between sprints, and will by hydrating to comfort level rather than a perscribed amount of volume.</li>
-      <li><b>Sprints completed (fatigue):</b> I'll be running more and more as the experiment continues. This could create fatigue that affects later sprints.</li>
-      <li><b>Atmosphere:</b> we can't control the weather, and its possible wind or rain could affect running conditions</li>
+      <li>
+        <b>Water:</b> I'll need to hydrate in between sprints, and will by
+        hydrating to comfort level rather than a perscribed amount of volume.
+      </li>
+      <li>
+        <b>Sprints completed (fatigue):</b> I'll be running more and more as
+        the experiment continues. This could create fatigue that affects
+        later sprints.
+      </li>
+      <li>
+        <b>Atmosphere:</b> we can't control the weather, and its possible wind or
+        rain could affect running conditions
+      </li>
     </ul>
-    <h2>Materials and Construction</h2>
+    <h2>Materials</h2>
     <ul>
-      <li><b>Ribs! and BBQ sauce</b> Sweet, sweet, running fuel.</li>
+      <li><b>Cooked ribs and BBQ sauce</b> Sweet, sweet, running fuel.</li>
       <li><b>Water:</b> for hydration.</li>
-      <li><b>Grill or oven:</b> some device to cook the ribs with.</li>
       <li><b>Workout gear:</b> I don't run in my grilling apron after all (at least not intentionally).</li>
       <li><b>Stopwatch:</b> to time the sprints with.</li>
       <li><b>Cones:</b> to setup 40 yards apart so I know how far to run.</li>
       <li><b>Measuring device:</b> so the cones get set exactly 40 yards apart (I don't want to run 41 yards after eating 2 racks of ribs).</li>
     </ul>
+    <h2>Experiment Setup</h2>
+    <ol>
+      <li>Retrieve supplies</li>
+      <li>Cook the ribs</li>
+      <li>Stage the water and ribs in an area near the 40 yard dash start line</li>
+      <li>Set one cone down near the ribs and water to indicate the start line</li>
+      <li>
+        Use the measuring tape to set a second cone down 40 yards away
+        from the initial cone
+      </li>
+      <li>Run and eat and run!</li>
+    </ol>
     <h2>Data</h2>
     <table className="table">
       <thead>
@@ -92,8 +113,8 @@ const ExampleSiteText = () => (
     <h2>Next Steps</h2>
     <p>
       I suspect one control run isn't enough. If I were to conduct this
-      experiment again I would perform 5 sprints with 10 minutes rests with
-      adequate hydration inbetween, but no BBQ, to see if my speed in the
+      experiment again I would perform 5 sprints with 10 minutes of rest and
+      adequate hydration in between, but no BBQ, to see if my speed in the
       40 yard dash changed.
     </p>
     <nav style={s.breadcrumbs}>

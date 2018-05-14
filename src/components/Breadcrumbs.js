@@ -15,7 +15,12 @@ const breadCrumbTitles = {
   '5': 'Step 5',
   '6': 'Step 6',
   '7': 'Step 7',
-  '8': 'Step 8'
+  '8': 'Step 8',
+  '9': 'Step 9',
+  '10': 'Step 10',
+  '11': 'Step 11',
+  '12': 'Step 12',
+  '13': 'Step 13'
 }
 
 function BreadcrumbsItem({ match }) {

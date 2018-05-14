@@ -12,9 +12,8 @@ export default function Step5() {
       <p style={s.p}>
         HTML provides many header tags that change the text size. We
         started with the largest one: <code>h1</code>. Copy and paste
-        the other header tags below into your <code>site.html</code> file
-        under the <code>&lt;/h1&gt;</code> tag, but above the
-        <code>&lt;/body&gt;</code> tag.
+        the other header tags shown below into your <code>site.html</code>
+        file under the <code>&lt;h1&gt;</code> tag.
       </p>
       <Gist id="9a560669538062f9787842469380b498"/>
       <p>
@@ -37,11 +36,11 @@ export default function Step5() {
       </p>
       <Gist id="fa85441b9cc04870e392850b724c7347"/>
       <p>
-        Do you want your title to be your favorite color, or maybe your
-        <b>least</b> favorite color? Go to the color picker in the link
-        below, find a color you like, and copy and paste the value into
-        your <code>style.css</code> file. Remember to save the file, and
-        refresh the page to load your changes.
+        Do you want your title to be your favorite color, or maybe
+        your <b> least </b> favorite color? Go to the color picker in the link
+        below, find a color you like, and copy and paste the value into your
+        <code>style.css</code> file. Remember to save the file, and refresh
+        the page to load your changes.
       </p>
       <a href="https://www.w3schools.com/colors/colors_picker.asp">Color Picker</a>
       <p style={s.p}>
