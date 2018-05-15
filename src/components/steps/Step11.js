@@ -7,24 +7,39 @@ import s from '../../styles/step.style';
 export default function Step11() {
   return (
     <div>
-      <h3>Ordered List of Setup Steps</h3>
+      <h3>Styling Your Table</h3>
       <p style={s.p}>
-        Now we'll add a list of steps we took to setup and conduct our experiment.
-        Being able to repeat an experiment and arrive at a consistent conclusion is
-        one of the most important parts of science, so write your steps so that someone
-        else could follow them and repeat your science project. Lets get started by
-        copying the HTML in the code example below into our own <code>site.html</code>
-        file.
+        We're going to be using Bootstrap to style our table. You can
+        read more about Bootstrap table
+        styles <a href="https://getbootstrap.com/docs/4.0/content/tables/"> here. </a> To
+        start lets add some CSS selectors to our table HTML elements. Use
+        the code sample below to apply selectors to your table header and
+        rows. After applying the selectors save your <code>site.html</code>
+        file and refresh the page in Chrome.
+        <br/>
+        <br/>
+        <b>Note: </b> If you're table size changed from the example your style
+        updates may be slightly different based on your columns and rows.
       </p>
-      <Gist id="f518b3a8f80ce1a06031a5e719a4de17"/>
-      <h5>The &lt;ol&gt; tag</h5>
+      <Gist id="570605a76be9b0a1132c4f4936cd6625"/>
       <p style={s.p}>
-        The <code>&lt;ol&gt;</code> tag stands
-        for ordered list, and causes the <code>&lt;li&gt;</code> (list item) tags to
-        render with a number prefix to more clearly show the order.
+        Does your table look different now? If should look very similar to the table
+        shown <a href="https://getbootstrap.com/docs/4.0/content/tables/#examples"> here. </a> We
+        can use Bootstrap to make other changes too. Lets make it dark by adding another
+        CSS class to your table tag so it looks like this:
+        <code>&lt;table class="table table-dark"&gt;</code>. Now save your
+        <code>site.html</code> file and refresh your page. Do you like what you see?
       </p>
       <p style={s.p}>
-        Lets take a breath to apply some styling before we continue adding more content.
+        Lets add a couple more classes to continue styling our table, like this:<br/>
+        <code>&lt;table class="table table-dark table-bordered table-striped table-hover"&gt;</code><br/>
+        Save and refresh the page to check out your newly styled table. Drag your mouse over
+        the rows to see what happens. The <code>table-hover</code> class will highlight the
+        row when your mouse hovers!
+      </p>
+      <p>
+        Keep the classes you like on the table, and lets wrap up the text paragraphs
+        on the next step.
       </p>
     </div>
   );

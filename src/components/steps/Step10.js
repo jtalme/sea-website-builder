@@ -67,9 +67,9 @@ export default function Step10() {
         </li>
       </ul>
       <p style={s.p}>
-        Do the tag nesting descriptions above and the way the table is rendering on your
-        site make sense to you? If you're confused feel free to ask a friend or a mentor
-        for help!
+        Do the tag nesting descriptions above make sense to you? How about the way the
+        table and is displaying on your page? If you're confused feel free to ask a
+        friend or a mentor for some help!
       </p>
       <h5>Table Data</h5>
       <p style={s.p}>
@@ -83,8 +83,7 @@ export default function Step10() {
         the page in Chrome.
       </p>
       <p style={s.p}>
-        After all of your column names and row data are showing up on your page, move on
-        to the next step where we'll use Bootstrap to style the table.
+        Move on to the next step where we'll use Bootstrap to style the table.
       </p>
     </div>
   );

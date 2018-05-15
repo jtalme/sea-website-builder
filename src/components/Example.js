@@ -68,7 +68,7 @@ const ExampleSiteText = () => (
       <li>Run and eat and run!</li>
     </ol>
     <h2>Data</h2>
-    <table className="table">
+    <table className="table table-bordered table-striped">
       <thead>
         <tr>
           <th scope="col">Run #</th>
@@ -110,7 +110,7 @@ const ExampleSiteText = () => (
         </tr>
       </tbody>
     </table>
-    <h2>Next Steps</h2>
+    <h2>Conclusion</h2>
     <p>
       I suspect one control run isn't enough. If I were to conduct this
       experiment again I would perform 5 sprints with 10 minutes of rest and
