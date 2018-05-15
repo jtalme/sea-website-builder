@@ -12,11 +12,13 @@ export default function Step12() {
         For the final paragraph on your site lets add a conclusion about your
         science project. A conclusion usually contains some information about the
         following questions:
-        <ul>
-          <li>What did you learn?</li>
-          <li>What would you do differently if you were to do this project again?</li>
-          <li>If you had more time and supplies, how would you use them?</li>
-        </ul>
+      </p>
+      <ul>
+        <li>What did you learn?</li>
+        <li>What would you do differently if you were to do this project again?</li>
+        <li>If you had more time and supplies, how would you use them?</li>
+      </ul>
+      <p style={s.p}>
         That last question is my favorite. If I had more time and supplies, I might
         build a drone that would deliver BBQ to me and my friends at work! What would
         you do? Copy and paste the section at the bottom of the sample code below,
