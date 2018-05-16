@@ -39,4 +39,9 @@ s.img = {
   width: '500px'
 }
 
+s.carousel = {
+  width: '600px',
+  margin: 'auto'
+}
+
 export default s;

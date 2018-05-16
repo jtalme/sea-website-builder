@@ -14,15 +14,15 @@ const ExampleSiteText = () => (
     <h1 style={s.title}>BBQ makes me slow!</h1>
     <h3 style={s.subtitle}>by Jon Alme</h3>
 
-    <Carousel>
+    <Carousel style={s.carousel}>
       <Carousel.Item>
-        <img width={900} height={500} alt="900x500" src="https://media.giphy.com/media/Nq8TE2Wo5Yg3m/giphy.gif" />
+        <img width={600} height={400} alt="900x500" src="https://media.giphy.com/media/Nq8TE2Wo5Yg3m/giphy.gif" />
       </Carousel.Item>
       <Carousel.Item>
-        <img width={900} height={500} alt="900x500" src="https://media.giphy.com/media/jfTDrYfZvlZja/giphy.gif" />
+        <img width={600} height={400} alt="900x500" src="https://media.giphy.com/media/jfTDrYfZvlZja/giphy.gif" />
       </Carousel.Item>
       <Carousel.Item>
-        <img width={900} height={500} alt="900x500" src="https://media.giphy.com/media/AZA94nmAWWF4k/giphy.gif" />
+        <img width={600} height={400} alt="900x500" src="https://media.giphy.com/media/AZA94nmAWWF4k/giphy.gif" />
       </Carousel.Item>
     </Carousel>
 

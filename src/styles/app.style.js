@@ -3,6 +3,8 @@ import style from './style';
 const s = Object.create(style);
 
 s.root = {
+  backgroundColor: '#e4ffe0',
+
   padding: '3vh 0 12vh 0',
   width: '800px',
   // use responsive max-width to simulate padding/margin to allow

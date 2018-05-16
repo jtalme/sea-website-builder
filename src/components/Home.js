@@ -1,6 +1,7 @@
 import React from 'react';
 import Interactive from 'react-interactive';
 import { Link } from 'react-router-dom';
+import { Glyphicon } from 'react-bootstrap';
 import { Code } from '../styles/style';
 import s from '../styles/home.style';
 
@@ -24,12 +25,13 @@ export default function Home() {
           to="/example"
         >Example Project: BBQ makes me slow!</Interactive>
       </div>
-      <div style={s.pageLinkContainer}>
-        <span>Lets get started! ... </span>
+      <div style={s.p}>
+        <span>Lets get started!  </span>
+        <Glyphicon glyph='forward'/>
         <Interactive
           as={Link}
           to="/steps/1"
-        >Step 1: Project Setup</Interactive>
+        > Step 1: Project Setup</Interactive>
       </div>
     </div>
   );

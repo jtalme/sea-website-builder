@@ -8,17 +8,33 @@ export default function Step14({title}) {
     <div>
       <h3>{title}</h3>
       <p style={s.p}>
-        Finally, lets add some pictures to spice up the page a bit.
+        Finally, lets add some pictures to spice up the page a bit. To start, we'll add
+        a picture of you, or your project, so hopefully you have one handy!
       </p>
-      <Gist id="f518b3a8f80ce1a06031a5e719a4de17"/>
-      <h5>The &lt;ol&gt; tag</h5>
+      <ol>
+        <li>
+          Download the image to your computer, and move the image to the
+          <code>science project site</code> folder on your Desktop
+        </li>
+        <li>Rename to the picture to <code>project.png</code></li>
+        <li>
+          Add the link to the picture and the <code>&lt;img&gt;</code> tag to your
+          <code>site.html</code> as shown below.
+        </li>
+        <li>Save your <code>site.html</code> file and refresh the Chrome tab.</li>
+      </ol>
+      <Gist id="5e895c618e1ae7ac1d1b40e9a76a51d2"/>
+      <h5>Styling Your <code>&lt;img&gt;</code></h5>
       <p style={s.p}>
-        The <code>&lt;ol&gt;</code> tag stands
-        for ordered list, and causes the <code>&lt;li&gt;</code> (list item) tags to
-        render with a number prefix to more clearly show the order.
+        Depending on how large your image is it might look a little funny on your site.
+        Lets apply some styling to the image so it is more appropriately sized for
+        your page. Copy and paste the CSS below into your <code>style.css</code>
+        file.
       </p>
+      <Gist id="237dff35c1fd10e2ef76238a14e20c4a"/>
       <p style={s.p}>
-        Lets take a breath to apply some styling before we continue adding more content.
+        Now you should have an image on your page! Lets move on to the next step to add
+        an image we load from the internet.
       </p>
     </div>
   );
