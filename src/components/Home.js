@@ -25,6 +25,7 @@ export default function Home() {
         >Example Project: BBQ makes me slow!</Interactive>
       </div>
       <div style={s.pageLinkContainer}>
+        <span>Lets get started! ... </span>
         <Interactive
           as={Link}
           to="/steps/1"

@@ -1,6 +1,7 @@
 import React from 'react';
 import Interactive from 'react-interactive';
 import { Switch, Route, Link } from 'react-router-dom';
+import { Carousel } from 'react-bootstrap'
 import Breadcrumbs from './Breadcrumbs';
 import PageNotFound from './PageNotFound';
 import s from '../styles/example.style';
@@ -12,9 +13,19 @@ const ExampleSiteText = () => (
     </nav>
     <h1 style={s.title}>BBQ makes me slow!</h1>
     <h3 style={s.subtitle}>by Jon Alme</h3>
-    <img style={Object.assign(s.img, s.center)} src="https://media.giphy.com/media/Nq8TE2Wo5Yg3m/giphy.gif"/>
-    <img style={Object.assign(s.img, s.center)} src="https://media.giphy.com/media/jfTDrYfZvlZja/giphy.gif"/>
-    <img style={Object.assign(s.img, s.center)} src="https://media.giphy.com/media/AZA94nmAWWF4k/giphy.gif"/>
+
+    <Carousel>
+      <Carousel.Item>
+        <img width={900} height={500} alt="900x500" src="https://media.giphy.com/media/Nq8TE2Wo5Yg3m/giphy.gif" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img width={900} height={500} alt="900x500" src="https://media.giphy.com/media/jfTDrYfZvlZja/giphy.gif" />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img width={900} height={500} alt="900x500" src="https://media.giphy.com/media/AZA94nmAWWF4k/giphy.gif" />
+      </Carousel.Item>
+    </Carousel>
+
     <h2>Hypothesis</h2>
     <p>
       I hypothesize that with every 6 ribs I eat, my 40 yard dash will slow down by 3 seconds.
