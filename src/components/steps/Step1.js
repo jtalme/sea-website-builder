@@ -8,7 +8,7 @@ export default function Step1({title}) {
       <p style={s.p}>
         Lets get started by downloading some tools that will help us build.
         A browser will help us view our website while we build, Chrome
-        is my go to.
+        should be a good tool for the job.
       </p>
       <a href="https://www.google.com/chrome">Download Chrome</a>
       <p style={s.p}>

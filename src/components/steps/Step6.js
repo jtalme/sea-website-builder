@@ -7,42 +7,45 @@ export default function Step6({title}) {
     <div>
       <h3>{title}</h3>
       <p style={s.p}>
-        Now that we have a title, lets add some text to describe your science
-        project. Copy the section added to the site below into your
-        <code>site.html</code> file, save and refresh the page.
+        Lets play with the font on our site. So far it will only show up on
+        our title, but we'll be adding plenty of text later on, but why not have
+        some fun right now?!?
       </p>
-      <Gist id='191010a6dd776acae6f3c8b99a134d76'/>
-      <h5>The &lt;p&gt; tag</h5>
+      <ol>
+        <li>Open a new Chrome tab and go to <a href='https://fonts.google.com/'>Google Fonts</a></li>
+        <li>
+          Find a font you like, and click the red plus buttons, this will put
+          the font in a tray in the bottom of your browser window.
+        </li>
+        <li>
+          Click the tray in your Google Fonts tab to expand it, this will show a window with
+          a link it like:<br/>
+          <code>&lt;link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"&gt;</code><br/>
+        </li>
+        <li>
+          Copy and paste this link into the <code>&lt;head&gt;</code> section of your
+          <code>site.html</code> file like the code example shows below.
+        </li>
+        <li>
+          The Google Fonts window will also show some CSS similar to this:<br/>
+          <code>font-family: 'Roboto', sans-serif;</code>
+        </li>
+        <li>
+          Copy and paste this link into your <code>style.css</code> file in the <code>body</code>
+          CSS selector like the code example shown below.
+        </li>
+        <li>Save the files and refresh your Chrome browser tab with your site.</li>
+      </ol>
+      <Gist id='9c6d7d6326698764a821b30b492b8167'/>
+      <Gist id='27545778e5aaaabc162efe7d732a5ff2'/>
       <p style={s.p}>
-        You'll notice we introduced a new HTML tag: <code>&lt;p&gt;</code>. The
-        <code>p</code> stands for paragraph. This is a tag that's commonly used
-        to represent a paragraph of text.
+        Try a few different fonts on your site to see what you like. You can even use
+        different fonts on different titles and paragraphs of your site by changing what
+        CSS selectors you add the <code>font-family</code> CSS rule to in your
+        <code>style.css</code> file.
       </p>
       <p style={s.p}>
-        Replace the <code>[add Experiment Design paragraph here]</code> text
-        with a paragraph about your own experiment design. Take some time to
-        type out the design of your experiment. Some questions to answer in your
-        paragraph could be:
-      </p>
-      <ul>
-        <li><i>What</i> was your experiment?</li>
-        <li><i>Why</i> did you choose this experiment?</li>
-        <li><i>Where</i> did the experiment take place?</li>
-        <li><i>How</i> did you conduct the experiment?</li>
-        <li><i>When</i> did you do the experiment and how long did it take?</li>
-        <li>... and more! What else should people know about your experiment?</li>
-      </ul>
-      <p style={s.p}>
-        After you finish adding your Experiment Design paragraph, save your
-        <code>site.html</code> file, and refresh your site in Chrome. Do you see
-        the updates you made?
-      </p>
-      <h5>Styling your &lt;p&gt;aragraph</h5>
-      <p style={s.p}>
-
-      </p>
-      <p style={s.p}>
-        Lets move on to the next step to add more information in the form of lists.
+        When you have found a font you like, move on to the next step.
       </p>
     </div>
   );

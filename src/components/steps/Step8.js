@@ -7,22 +7,43 @@ export default function Step8({title}) {
     <div>
       <h3>{title}</h3>
       <p style={s.p}>
-        Now we'll add a list of steps we took to setup and conduct our experiment.
-        Being able to repeat an experiment and arrive at a consistent conclusion is
-        one of the most important parts of science, so write your steps so that someone
-        else could follow them and repeat your science project. Lets get started by
-        copying the HTML in the code example below into our own <code>site.html</code>
-        file.
+        Next we'll add a list of variables that are changing during our experiment.
+        Lets put these variables in a list, so its easy to see and understand each
+        different variable. Copy the HTML below into your own <code>site.html</code>
+        save and refresh the page.
       </p>
-      <Gist id="f518b3a8f80ce1a06031a5e719a4de17"/>
-      <h5>The &lt;ol&gt; tag</h5>
+      <Gist id="7b025f886ab7eb7fdad3a99c12e23e8c"/>
+      <h5>The &lt;ul&gt; and &lt;li&gt; tags</h5>
       <p style={s.p}>
-        The <code>&lt;ol&gt;</code> tag stands
-        for ordered list, and causes the <code>&lt;li&gt;</code> (list item) tags to
-        render with a number prefix to more clearly show their order.
+        These tags are responsible for showing lists. <code>&lt;ul&gt;</code> stands
+        for unordered list, and <code>&lt;li&gt;</code> stands for list item. The
+        <code>&lt;ul&gt;</code> are optional in this scenario, and just make it so the
+        collection of <code>&lt;li&gt;</code> tags to appear more grouped. Try removing the
+        <code>&lt;ul&gt;</code> tags to see what happens.
       </p>
       <p style={s.p}>
-        Lets take a breath to apply some styling before we continue adding more content.
+        Now that you can see the placeholder variable text on your page, replace the
+        <code>[variable name]</code> and <code>[variable description]</code> text with
+        your actual variables names and descriptions. If you have less than
+        three delete the lines of <code>&lt;li&gt;</code> tags you don't need. If you have
+        more than three copy and paste the <code>&lt;li&gt;</code> tags to make your
+        list longer.
+      </p>
+      <h5>Listing Materials</h5>
+      <p style={s.p}>
+        Lets copy the "Variables" title and list items HTML and paste below to create another
+        list. We should change the title to "Materials". See the code example below for
+        more guidance.
+      </p>
+      <Gist id="574428e1eb674c2a2c99ed1eaa75adc1" />
+      <p style={s.p}>
+        Add the materials you used in your science project to the list, adjusting the HTML
+        as needed, save your <code>site.html</code> file and refresh to make sure your materials
+        list looks good.
+      </p>
+      <p style={s.p}>
+        There's another type of list that we'll introduce in the next step, lets
+        continue.
       </p>
     </div>
   );

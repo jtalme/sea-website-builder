@@ -16,6 +16,7 @@ import Step10 from './Step10';
 import Step11 from './Step11';
 import Step12 from './Step12';
 import Step13 from './Step13';
+import Step14 from './Step14';
 
 export const StepMap = {
   1: {
@@ -40,35 +41,39 @@ export const StepMap = {
   },
   6: {
     'step': Step6,
-    'title': 'Adding Text to Your Site'
+    'title': 'Changing Your Title Font'
   },
   7: {
     'step': Step7,
-    'title': 'Add a List of Variables'
+    'title': 'Adding Text to Your Site'
   },
   8: {
-    'step': Step8,
-    'title': 'Ordered List of Setup Steps'
+      'step': Step8,
+      'title': 'Add a List of Variables'
   },
   9: {
     'step': Step9,
-    'title': 'Adding Bootstrap'
+    'title': 'Ordered List of Setup Steps'
   },
   10: {
     'step': Step10,
-    'title': 'Building a Table'
+    'title': 'Adding Bootstrap'
   },
   11: {
     'step': Step11,
-    'title': 'Styling Your Table'
+    'title': 'Building a Table'
   },
   12: {
     'step': Step12,
-    'title': 'Adding a Conclusion'
+    'title': 'Styling Your Table'
   },
   13: {
     'step': Step13,
-    'title': 'Ordered List of Setup Steps'
+    'title': 'Adding a Conclusion'
+  },
+  14: {
+    'step': Step14,
+    'title': 'Adding Pictures'
   }
 }
 

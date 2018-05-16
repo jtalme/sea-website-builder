@@ -8,22 +8,25 @@ export default function Step13({title}) {
     <div>
       <h3>{title}</h3>
       <p style={s.p}>
-        Now we'll add a list of steps we took to setup and conduct our experiment.
-        Being able to repeat an experiment and arrive at a consistent conclusion is
-        one of the most important parts of science, so write your steps so that someone
-        else could follow them and repeat your science project. Lets get started by
-        copying the HTML in the code example below into our own <code>site.html</code>
-        file.
+        For the final paragraph on your site lets add a conclusion about your
+        science project. A conclusion usually contains some information about the
+        following questions:
       </p>
-      <Gist id="f518b3a8f80ce1a06031a5e719a4de17"/>
-      <h5>The &lt;ol&gt; tag</h5>
+      <ul>
+        <li>What did you learn?</li>
+        <li>What would you do differently if you were to do this project again?</li>
+        <li>If you had more time and supplies, how would you use them?</li>
+      </ul>
       <p style={s.p}>
-        The <code>&lt;ol&gt;</code> tag stands
-        for ordered list, and causes the <code>&lt;li&gt;</code> (list item) tags to
-        render with a number prefix to more clearly show the order.
+        That last question is my favorite. If I had more time and supplies, I might
+        build a drone that would deliver BBQ to me and my friends at work! What would
+        you do? Copy and paste the section at the bottom of the sample code below,
+        and fill in some details about your conclusion.
       </p>
+      <Gist id="91dcb86890b994f552bb2586e1c42c95"/>
       <p style={s.p}>
-        Lets take a breath to apply some styling before we continue adding more content.
+        After you have filled in the conclusion, lets move on to the next step to add
+        some images and gifs!!!
       </p>
     </div>
   );

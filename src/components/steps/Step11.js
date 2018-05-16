@@ -1,5 +1,4 @@
 import React from 'react';
-import Interactive from 'react-interactive';
 import Gist from 'react-gist';
 import s from '../../styles/step.style';
 
@@ -8,37 +7,81 @@ export default function Step11({title}) {
     <div>
       <h3>{title}</h3>
       <p style={s.p}>
-        We're going to be using Bootstrap to style our table. You can
-        read more about Bootstrap table
-        styles <a href="https://getbootstrap.com/docs/4.0/content/tables/"> here. </a> To
-        start lets add some CSS selectors to our table HTML elements. Use
-        the code sample below to apply selectors to your table header and
-        rows. After applying the selectors save your <code>site.html</code>
-        file and refresh the page in Chrome.
-        <br/>
-        <br/>
-        <b>Note: </b> If you're table size changed from the example your style
-        updates may be slightly different based on your columns and rows.
+        Lets continue adding content to your page. Now that we've provided enough content
+        to teach someone how to setup and run your experiment, lets add the results from
+        your experiment. This will most likely be data that we can put in a table with
+        the following elements:
       </p>
-      <Gist id="570605a76be9b0a1132c4f4936cd6625"/>
+      <ul>
+        <li>
+          <b>Column Header:</b> A row of titles that communicate the data in each columne.
+        </li>
+        <li>
+          <b>Row Header:</b> The first column in each row that acts as a title for the row.
+          This is often a number for the row.
+        </li>
+        <li>
+          <b>Rows: </b> Each row consists of a value for each column that can be described
+          by that column's header or title.
+        </li>
+      </ul>
       <p style={s.p}>
-        Does your table look different now? If should look very similar to the table
-        shown <a href="https://getbootstrap.com/docs/4.0/content/tables/#examples"> here. </a> We
-        can use Bootstrap to make other changes too. Lets make it dark by adding another
-        CSS class to your table tag so it looks like this:
-        <code>&lt;table class="table table-dark"&gt;</code>. Now save your
-        <code>site.html</code> file and refresh your page. Do you like what you see?
+        Lets add a table to our page so we can see what a table looks like in HTML. Copy and
+        paste the HTML table from the code sample below, save your <code>site.html</code> file
+        and refresh your page in Chrome.
+      </p>
+      <Gist id="99cbd983d88cf4b75d9c270a8d2a8a9b"/>
+      <h5>HTML Table Tags</h5>
+      <p style={s.p}>
+        Do you see the "Data Table" title and a table with 4 rows of data? We used several
+        HTML tags to create this table, here is a breakdown of each tag used:
+      </p>
+      <ul>
+        <li><code>&lt;table&gt;</code> the outermost tag indicates everything inside it is for a table</li>
+        <li><code>&lt;thead&gt;</code> groups the column headers</li>
+        <li><code>&lt;tbody&gt;</code> groups the rows, also known as the table body</li>
+        <li><code>&lt;tr&gt;</code> defines a row in the table</li>
+        <li><code>&lt;th&gt;</code> defines a cell in the table header</li>
+        <li><code>&lt;td&gt;</code> defines a cell in a data row, or row in the table body</li>
+      </ul>
+      <p style={s.p}>
+        If you look at the HTML for the table closely, you'll notice there are a few
+        different combinations of nested tags. Lets break those combinations down.
+        Since everything is wrapped in a <code>&lt;table&gt;</code> tag we'll leave
+        that out in the combinations below:
+      </p>
+      <ul>
+        <li>
+          <code>&lt;thead&gt; &lt;tr&gt; &lt;th&gt;</code> table header --> table row
+          --> header cell... this is a column header!
+        </li>
+        <li>
+          <code>&lt;tbody&gt; &lt;tr&gt; &lt;th&gt;</code> table body --> table row
+          --> header cell... this is a row header!
+        </li>
+        <li>
+          <code>&lt;tbody&gt; &lt;tr&gt; &lt;td&gt;</code> table body --> table row
+          --> header cell... this is a table row data cell!
+        </li>
+      </ul>
+      <p style={s.p}>
+        Do the tag nesting descriptions above make sense to you? How about the way the
+        table and is displaying on your page? If you're confused feel free to ask a
+        friend or a mentor for some help!
+      </p>
+      <h5>Table Data</h5>
+      <p style={s.p}>
+        Replace the text in the table header cells with your column names. You may need fewer
+        or more columns than the provided table template. Can you figure out how to add
+        extra columns? Ask a mentor for help if you're stuck!
       </p>
       <p style={s.p}>
-        Lets add a couple more classes to continue styling our table, like this:<br/>
-        <code>&lt;table class="table table-dark table-bordered table-striped table-hover"&gt;</code><br/>
-        Save and refresh the page to check out your newly styled table. Drag your mouse over
-        the rows to see what happens. The <code>table-hover</code> class will highlight the
-        row when your mouse hovers!
+        Replace the values in the table rows with the values from your science project. After
+        all of your data is in the table, save your <code>site.html</code> file and refresh
+        the page in Chrome.
       </p>
-      <p>
-        Keep the classes you like on the table, and lets wrap up the text paragraphs
-        on the next step.
+      <p style={s.p}>
+        Move on to the next step where we'll use Bootstrap to style the table.
       </p>
     </div>
   );

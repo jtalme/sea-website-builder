@@ -8,7 +8,7 @@ export default function ForwardBack({ match }) {
 
   let stepNum = match.params.stepNum
   let previousStep = stepNum > 1 ? '/steps/' + (Number(stepNum) - 1) : null;
-  let nextStep = stepNum < 13 ? '/steps/' + (Number(stepNum) + 1) : null;
+  let nextStep = stepNum < 14 ? '/steps/' + (Number(stepNum) + 1) : null;
 
   const backButton = previousStep ? (
     <span>
