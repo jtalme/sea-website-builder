@@ -1,12 +1,10 @@
 import React from 'react';
-import Interactive from 'react-interactive';
-import { Code } from '../../styles/style';
 import s from '../../styles/step.style';
 
-export default function Step3() {
+export default function Step3({title}) {
   return (
     <div>
-      <h3>Create Your Project Files</h3>
+      <h3>{title}</h3>
       <p style={s.p}>
         We'll start by creating a folder that will contain your website
         HTML and CSS files. On your desktop, create a folder called

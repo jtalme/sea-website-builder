@@ -1,13 +1,11 @@
 import React from 'react';
-import Interactive from 'react-interactive';
 import Gist from 'react-gist';
-import { Code } from '../../styles/style';
 import s from '../../styles/step.style';
 
-export default function Step7() {
+export default function Step7({title}) {
   return (
     <div>
-      <h3>Add a List of Variables</h3>
+      <h3>{title}</h3>
       <p style={s.p}>
         Next we'll add a list of variables that are changing during our experiment.
         Lets put these variables in a list, so its easy to see and understand each

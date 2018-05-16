@@ -1,13 +1,11 @@
 import React from 'react';
-import Interactive from 'react-interactive';
 import Gist from 'react-gist';
-import { Code } from '../../styles/style';
 import s from '../../styles/step.style';
 
-export default function Step10() {
+export default function Step10({title}) {
   return (
     <div>
-      <h3>Building a Table</h3>
+      <h3>{title}</h3>
       <p style={s.p}>
         Lets continue adding content to your page. Now that we've provided enough content
         to teach someone how to setup and run your experiment, lets add the results from

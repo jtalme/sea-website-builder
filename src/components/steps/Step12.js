@@ -1,13 +1,12 @@
 import React from 'react';
 import Interactive from 'react-interactive';
 import Gist from 'react-gist';
-import { Code } from '../../styles/style';
 import s from '../../styles/step.style';
 
-export default function Step12() {
+export default function Step12({title}) {
   return (
     <div>
-      <h3>Adding a Conclusion</h3>
+      <h3>{title}</h3>
       <p style={s.p}>
         For the final paragraph on your site lets add a conclusion about your
         science project. A conclusion usually contains some information about the

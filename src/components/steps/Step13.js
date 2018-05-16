@@ -1,13 +1,12 @@
 import React from 'react';
 import Interactive from 'react-interactive';
 import Gist from 'react-gist';
-import { Code } from '../../styles/style';
 import s from '../../styles/step.style';
 
-export default function Step13() {
+export default function Step13({title}) {
   return (
     <div>
-      <h3>Ordered List of Setup Steps</h3>
+      <h3>{title}</h3>
       <p style={s.p}>
         Now we'll add a list of steps we took to setup and conduct our experiment.
         Being able to repeat an experiment and arrive at a consistent conclusion is

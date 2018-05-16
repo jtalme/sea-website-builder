@@ -1,13 +1,12 @@
 import React from 'react';
 import Interactive from 'react-interactive';
 import Gist from 'react-gist';
-import { Code } from '../../styles/style';
 import s from '../../styles/step.style';
 
-export default function Step11() {
+export default function Step11({title}) {
   return (
     <div>
-      <h3>Styling Your Table</h3>
+      <h3>{title}</h3>
       <p style={s.p}>
         We're going to be using Bootstrap to style our table. You can
         read more about Bootstrap table

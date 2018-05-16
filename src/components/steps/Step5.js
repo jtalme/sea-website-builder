@@ -1,13 +1,11 @@
 import React from 'react';
 import Gist from 'react-gist';
-import Interactive from 'react-interactive';
-import { Code } from '../../styles/style';
 import s from '../../styles/step.style';
 
-export default function Step5() {
+export default function Step5({title}) {
   return (
     <div>
-      <h3>Modifying Your Title</h3>
+      <h3>{title}</h3>
       <h5>Size</h5>
       <p style={s.p}>
         HTML provides many header tags that change the text size. We

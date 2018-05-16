@@ -1,13 +1,11 @@
 import React from 'react';
-import Interactive from 'react-interactive';
 import Gist from 'react-gist';
-import { Code } from '../../styles/style';
 import s from '../../styles/step.style';
 
-export default function Step9() {
+export default function Step9({title}) {
   return (
     <div>
-      <h3>Adding Bootstrap</h3>
+      <h3>{title}</h3>
       <p style={s.p}>
         We can continue to apply styles to our individual page elemnents, or we can
         import a third party script that will give us a head start. Meet

@@ -1,12 +1,10 @@
 import React from 'react';
-import Interactive from 'react-interactive';
-import { Code } from '../../styles/style';
 import s from '../../styles/step.style';
 
-export default function Step2() {
+export default function Step2({title}) {
   return (
     <div>
-      <h3>HTML Overview</h3>
+      <h3>{title}</h3>
       <p style={s.p}>
         <b>H</b>yper<br/>
         <b>T</b>ext<br/>

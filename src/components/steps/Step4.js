@@ -1,13 +1,11 @@
 import React from 'react';
-import Interactive from 'react-interactive';
 import Gist from 'react-gist';
-import { Code } from '../../styles/style';
 import s from '../../styles/step.style';
 
-export default function Step4() {
+export default function Step4({title}) {
   return (
     <div>
-      <h3>Adding a Title and Viewing your Site</h3>
+      <h3>{title}</h3>
       <p style={s.p}>
         Lets open our <code>site.html</code> file with Sublime Text:
       </p>
