@@ -26,8 +26,7 @@ export default function Step13({title}) {
       <Gist id="91dcb86890b994f552bb2586e1c42c95"/>
       <p style={s.p}>
         Congrats, you built your own science project site! Continue exploring HTML
-        and CSS tutorials to learn more. There is tons more you can do
-        with <a href=""/> too!
+        and CSS tutorials to learn more.
       </p>
     </div>
   );

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Glyphicon } from 'react-bootstrap';
 import Gist from 'react-gist';
 import s from '../../styles/step.style';
 
@@ -52,16 +53,16 @@ export default function Step11({title}) {
       </p>
       <ul>
         <li>
-          <code>&lt;thead&gt; &lt;tr&gt; &lt;th&gt;</code> table header --> table row
-          --> header cell... this is a column header!
+          <code>&lt;thead&gt; &lt;tr&gt; &lt;th&gt;</code> table header <Glyphicon glyph="arrow-right" /> table
+          row <Glyphicon glyph="arrow-right" /> header cell... this is a column header!
         </li>
         <li>
-          <code>&lt;tbody&gt; &lt;tr&gt; &lt;th&gt;</code> table body --> table row
-          --> header cell... this is a row header!
+          <code>&lt;tbody&gt; &lt;tr&gt; &lt;th&gt;</code> table body <Glyphicon glyph="arrow-right" /> table
+          row <Glyphicon glyph="arrow-right" /> header cell... this is a row header!
         </li>
         <li>
-          <code>&lt;tbody&gt; &lt;tr&gt; &lt;td&gt;</code> table body --> table row
-          --> header cell... this is a table row data cell!
+          <code>&lt;tbody&gt; &lt;tr&gt; &lt;td&gt;</code> table body <Glyphicon glyph="arrow-right" /> table
+          row <Glyphicon glyph="arrow-right" /> header cell... this is a table row data cell!
         </li>
       </ul>
       <p style={s.p}>
