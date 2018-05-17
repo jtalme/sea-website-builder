@@ -19,8 +19,12 @@ export default function Step14({title}) {
         </li>
         <li>Open your "Files" app, and go the "Downloads" folder</li>
         <li>
-          Right-click on the picture you downloaded in the first step, click
-          "Rename", and save the the picture as "project.png"
+          Find the image you downloaded, and click and drag it into your
+          "Science Project Site" folder.
+        </li>
+        <li>
+          Open your "Science Project Site" folder, right-click on the picture you downloaded,
+          click "Rename", and save the picture as "project.png"
         </li>
         <li>
           Add the <code>&lt;img&gt;</code> tag in the code sample below to
