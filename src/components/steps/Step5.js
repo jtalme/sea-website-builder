@@ -45,12 +45,20 @@ export default function Step5({title}) {
         href="https://www.w3schools.com/colors/colors_picker.asp"
         target="_blank"
       >Color Picker</a>
+      <h3>Position</h3>
+      <p style={s.p}>
+        Finally, we'll change the position of your title so it's centered. Add
+        the <code>text-alignment</code> rule below to
+        your <code>h1></code> CSS. Copy and paste
+        the <code>body</code> CSS rules into your <code>style.css</code> file
+        as well. When you're done, save your <code>style.css</code> file in Caret
+        and refresh your <code>site.html</code> tab in Chrome.
+      </p>
+      <Gist id="640869c4550bf989c422543ed74d71cc"/>
       <p style={s.p}>
         While we're playing with colors, change the color value in
-        the <code>background-color</code> CSS rule too!
-      </p>
-      <p style={s.p}>
-        Continue on to the next step to change your title font.
+        the <code>background-color</code> CSS rule too! Continue on to
+        the next step to change your title font.
       </p>
     </div>
   );
