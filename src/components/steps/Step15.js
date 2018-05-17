@@ -13,7 +13,7 @@ export default function Step15({title}) {
       </p>
       <ol>
         <li>
-          Copy and paste the following img tab into your <code>site.html</code>
+          Copy and paste the following img tag into your <code>site.html</code>
           file under the existing <code>&lt;img&gt;</code> tag.<br/>
           <code>&lt;img src="PASTE LINK BETWEEN THESE QUOTES" /&gt;</code>
         </li>
