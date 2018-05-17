@@ -8,8 +8,8 @@ export default function Step7({title}) {
       <h2>{title}</h2>
       <p style={s.p}>
         Now that we have a title, lets add some text to describe your science project.
-        Copy the section added to the site below into your
-        <code>site.html</code> file, save and refresh the page.
+        Copy the section added to the site below into your <code>site.html</code> file,
+        save and refresh the page.
       </p>
       <Gist id='191010a6dd776acae6f3c8b99a134d76'/>
       <h3>The &lt;p&gt; tag</h3>

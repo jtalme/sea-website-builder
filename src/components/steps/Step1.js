@@ -10,8 +10,7 @@ export default function Step1({title}) {
         Lets get started by downloading some tools that will help us build
         a site with your Chromebooks. The good news is, you already have the
         Chrome browser installed which is a great tool to have! Next we'll
-        need to install the Caret Chrome App from the Chrome Web Store. Click
-        the link below, and the select <code>Add To Chrome</code>.
+        need to install the Caret Chrome App from the Chrome Web Store.
       </p>
       <ol>
         <li>
@@ -28,7 +27,8 @@ export default function Step1({title}) {
         </li>
         <li>
           <strong>IMPORTANT:</strong> High five a
-          friend <Glyphicon glyph="thumbs-up" /> you're ready to start building
+          friend  <Glyphicon glyph="thumbs-up" />  you're
+          ready to start building
         </li>
       </ol>
 

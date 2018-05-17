@@ -23,7 +23,7 @@ export default function Step8({title}) {
         <code>[variable name]</code> and <code>[variable description]</code> text with
         your actual variables names and descriptions. If you have less than
         three, delete the lines of <code>&lt;li&gt;</code> tags you don't need. If you have
-        more than three copy and paste the <code>&lt;li&gt;</code> tags to make your
+        more than three, copy and paste the <code>&lt;li&gt;</code> tags to make your
         list longer.
       </p>
       <h3>Listing Materials</h3>
@@ -35,7 +35,7 @@ export default function Step8({title}) {
       <Gist id="574428e1eb674c2a2c99ed1eaa75adc1" />
       <p style={s.p}>
         Add the materials you used in your science project to the list, adjusting the HTML
-        as needed, save your <code>site.html</code> file and refresh to make sure your materials
+        as needed. Save your <code>site.html</code> file and refresh to make sure your materials
         list looks good.
       </p>
       <p style={s.p}>

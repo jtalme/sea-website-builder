@@ -13,8 +13,8 @@ export default function Step15({title}) {
       </p>
       <ol>
         <li>
-          Copy and paste the following img tag into your <code>site.html</code>
-          file under the existing <code>&lt;img&gt;</code> tag.<br/>
+          Copy and paste the following <code>&lt;img&gt;</code> tag into
+          your <code>site.html</code> file under the existing <code>&lt;img&gt;</code> tag<br/>
           <code>&lt;img src="PASTE LINK BETWEEN THESE QUOTES" /&gt;</code>
         </li>
         <li>
@@ -24,7 +24,7 @@ export default function Step15({title}) {
         <li>Right-click on the image you found and select "Copy Image Address"</li>
         <li>
           Paste the image address you copied into the <code>src=</code> attribute
-          of the <code>&lt;img&gt;</code> tag you just added to your site.
+          of the <code>&lt;img&gt;</code> tag you just added to your site
         </li>
         <li>
           Save your <code>site.html</code> file in Caret, and refresh your tab in Chrome

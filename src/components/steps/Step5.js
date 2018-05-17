@@ -13,8 +13,8 @@ export default function Step5({title}) {
       </p>
       <ol>
         <li>
-          Copy and paste the code below into your <code>style.css</code>
-          file you have open in Caret.
+          Copy and paste the code below into your <code>style.css</code> file
+          you have open in Caret.
         </li>
         <li>Save your <code>style.css</code> file</li>
         <li>Refresh your <code>site.html</code> tab in Chrome</li>
@@ -35,11 +35,10 @@ export default function Step5({title}) {
       </p>
       <Gist id="fa85441b9cc04870e392850b724c7347"/>
       <p>
-        Do you want your title to be your favorite color, or maybe
-        your <b> least </b> favorite color? Go to the color picker in the link
-        below, find a color you like, and copy and paste the value into your
-        <code>style.css</code> file. Remember to save the file, and refresh
-        the page to load your changes.
+        Do you want your title to be your favorite color? Go to the color
+        picker in the link below, find a color you like, and copy and
+        paste the value into your <code>style.css</code> file. Remember
+        to save the file, and refresh the page to load your changes.
       </p>
       <a
         href="https://www.w3schools.com/colors/colors_picker.asp"
@@ -49,7 +48,7 @@ export default function Step5({title}) {
       <p style={s.p}>
         Finally, we'll change the position of your title so it's centered. Add
         the <code>text-alignment</code> rule below to
-        your <code>h1></code> CSS. Copy and paste
+        your <code>h1</code> CSS rules. Copy and paste
         the <code>body</code> CSS rules into your <code>style.css</code> file
         as well. When you're done, save your <code>style.css</code> file in Caret
         and refresh your <code>site.html</code> tab in Chrome.

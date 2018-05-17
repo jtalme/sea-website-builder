@@ -15,7 +15,7 @@ export default function Step3({title}) {
         <li>
           A new file should automatically be created,
           click <strong>File <Glyphicon glyph="arrow-right" /> Save</strong> and
-          save the file with the filename <code>site.html</code> in the Downloads
+          save the file with the filename <code>site.html</code> in your "Downloads"
           folder
         </li>
         <li>
@@ -25,7 +25,7 @@ export default function Step3({title}) {
         </li>
         <li>
           Now click <strong>File <Glyphicon glyph="arrow-right" /> Save</strong> and
-          save this file with the filename <code>style.css</code> in the Downloads
+          save this file with the filename <code>style.css</code> in your "Downloads"
           folder
         </li>
       </ol>
@@ -51,7 +51,7 @@ export default function Step3({title}) {
       </ol>
       <p style={s.p}>
         Now that we have our files in place, and our <code>site.html</code> file
-        open in Chrome, lets continue on to the next step to add a title
+        open in Chrome, lets continue on to the next step to add a title.
       </p>
     </div>
   );

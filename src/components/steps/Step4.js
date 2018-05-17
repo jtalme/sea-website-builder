@@ -22,8 +22,8 @@ export default function Step4({title}) {
       <ol>
         <li>In Caret, save your <code>site.html</code> file</li>
         <li>
-          In Chrome, refresh the tab where you're viewing the
-          <code>site.html</code> file
+          In Chrome, refresh the tab where you're viewing
+          the <code>site.html</code> file
         </li>
       </ol>
       <p style={s.p}>
