@@ -17,7 +17,6 @@ import Step11 from './Step11';
 import Step12 from './Step12';
 import Step13 from './Step13';
 import Step14 from './Step14';
-import Step15 from './Step15';
 
 export const StepMap = {
   1: {
@@ -58,28 +57,24 @@ export const StepMap = {
   },
   10: {
     'step': Step10,
-    'title': 'Adding Bootstrap'
+    'title': 'Adding Your Own Picture'
   },
   11: {
     'step': Step11,
-    'title': 'Building a Table'
+    'title': 'Adding a Picture from the Internet'
   },
   12: {
     'step': Step12,
-    'title': 'Styling Your Table'
+    'title': 'Building a Table'
   },
   13: {
     'step': Step13,
-    'title': 'Adding a Conclusion'
+    'title': 'Styling Your Table'
   },
   14: {
     'step': Step14,
-    'title': 'Adding Your Own Picture'
-  },
-  15: {
-      'step': Step15,
-      'title': 'Adding a Picture from the Internet'
-    }
+    'title': 'Adding a Conclusion'
+  }
 }
 
 export default function Steps() {

@@ -3,30 +3,42 @@ import Interactive from 'react-interactive';
 import Gist from 'react-gist';
 import s from '../../styles/step.style';
 
-export default function Step13({title}) {
+export default function Step12({title}) {
   return (
     <div>
       <h2>{title}</h2>
       <p style={s.p}>
-        For the final paragraph on your site lets add a conclusion about your
-        science project. A conclusion usually contains some information about the
-        following questions:
+        We're going to be using Bootstrap to style our table. You can
+        read more about Bootstrap table
+        styles <a href="https://getbootstrap.com/docs/4.0/content/tables/"> here. </a> To
+        start lets add some CSS selectors to our table HTML elements. Use
+        the code sample below to apply selectors to your table header and
+        rows. After applying the selectors save your <code>site.html</code>
+        file and refresh the page in Chrome.
+        <br/>
+        <br/>
+        <b>Note: </b> If you're table size changed from the example your style
+        updates may be slightly different based on your columns and rows.
       </p>
-      <ul>
-        <li>What did you learn?</li>
-        <li>What would you do differently if you were to do this project again?</li>
-        <li>If you had more time and supplies, how would you use them?</li>
-      </ul>
+      <Gist id="570605a76be9b0a1132c4f4936cd6625"/>
       <p style={s.p}>
-        That last question is my favorite. If I had more time and supplies, I might
-        build a drone that would deliver BBQ to me and my friends at work! What would
-        you do? Copy and paste the section at the bottom of the sample code below,
-        and fill in some details about your conclusion.
+        Does your table look different now? If should look very similar to the table
+        shown <a href="https://getbootstrap.com/docs/4.0/content/tables/#examples"> here. </a> We
+        can use Bootstrap to make other changes too. Lets make it dark by adding another
+        CSS class to your table tag so it looks like this:
+        <code>&lt;table class="table table-dark"&gt;</code>. Now save your
+        <code>site.html</code> file and refresh your page. Do you like what you see?
       </p>
-      <Gist id="91dcb86890b994f552bb2586e1c42c95"/>
       <p style={s.p}>
-        After you have filled in the conclusion, lets move on to the next step to add
-        some images and gifs!!!
+        Lets add a couple more classes to continue styling our table, like this:<br/>
+        <code>&lt;table class="table table-dark table-bordered table-striped table-hover"&gt;</code><br/>
+        Save and refresh the page to check out your newly styled table. Drag your mouse over
+        the rows to see what happens. The <code>table-hover</code> class will highlight the
+        row when your mouse hovers!
+      </p>
+      <p>
+        Keep the classes you like on the table, and lets wrap up the text paragraphs
+        on the next step.
       </p>
     </div>
   );
