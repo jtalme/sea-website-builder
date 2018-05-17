@@ -14,7 +14,7 @@ export default function Step11({title}) {
       </p>
       <ul>
         <li>
-          <b>Column Header:</b> A row of titles that communicate the data in each columne.
+          <b>Column Header:</b> A row of titles that communicate the data in each column.
         </li>
         <li>
           <b>Row Header:</b> The first column in each row that acts as a title for the row.
