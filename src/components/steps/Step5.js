@@ -5,8 +5,8 @@ import s from '../../styles/step.style';
 export default function Step5({title}) {
   return (
     <div>
-      <h3>{title}</h3>
-      <h5>Size</h5>
+      <h2>{title}</h2>
+      <h3>Size</h3>
       <p style={s.p}>
         HTML provides many header tags that change the text size. We
         started with the largest one: <code>h1</code>. Copy and paste
@@ -17,7 +17,7 @@ export default function Step5({title}) {
       <p>
         Which header tag do you like best? Use that one!
       </p>
-      <h5>Color</h5>
+      <h3>Color</h3>
       <p style={s.p}>
         Lets open your <code>style.css</code> file in Sublime Text so
         we can change the color of your title.

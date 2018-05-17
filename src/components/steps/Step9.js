@@ -5,7 +5,7 @@ import s from '../../styles/step.style';
 export default function Step9({title}) {
   return (
     <div>
-      <h3>{title}</h3>
+      <h2>{title}</h2>
       <p style={s.p}>
         Now we'll add a list of steps we took to setup and conduct our experiment.
         Being able to repeat an experiment and arrive at a consistent conclusion is
@@ -15,7 +15,7 @@ export default function Step9({title}) {
         file.
       </p>
       <Gist id="f518b3a8f80ce1a06031a5e719a4de17"/>
-      <h5>The &lt;ol&gt; tag</h5>
+      <h3>The &lt;ol&gt; tag</h3>
       <p style={s.p}>
         The <code>&lt;ol&gt;</code> tag stands
         for ordered list, and causes the <code>&lt;li&gt;</code> (list item) tags to

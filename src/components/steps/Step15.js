@@ -6,7 +6,7 @@ import s from '../../styles/step.style';
 export default function Step15({title}) {
   return (
     <div>
-      <h3>{title}</h3>
+      <h2>{title}</h2>
       <p style={s.p}>
         In addition to adding your own picture, you can link to a picture you
         find on the internet and add it to your page.

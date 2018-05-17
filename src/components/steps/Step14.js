@@ -6,7 +6,7 @@ import s from '../../styles/step.style';
 export default function Step14({title}) {
   return (
     <div>
-      <h3>{title}</h3>
+      <h2>{title}</h2>
       <p style={s.p}>
         Finally, lets add some pictures to spice up the page a bit. To start, we'll add
         a picture of you, or your project, so hopefully you have one handy!
@@ -24,7 +24,7 @@ export default function Step14({title}) {
         <li>Save your <code>site.html</code> file and refresh the Chrome tab.</li>
       </ol>
       <Gist id="5e895c618e1ae7ac1d1b40e9a76a51d2"/>
-      <h5>Styling Your <code>&lt;img&gt;</code></h5>
+      <h3>Styling Your <code>&lt;img&gt;</code></h3>
       <p style={s.p}>
         Depending on how large your image is it might look a little funny on your site.
         Lets apply some styling to the image so it is more appropriately sized for

@@ -6,7 +6,7 @@ import s from '../../styles/step.style';
 export default function Step12({title}) {
   return (
     <div>
-      <h3>{title}</h3>
+      <h2>{title}</h2>
       <p style={s.p}>
         We're going to be using Bootstrap to style our table. You can
         read more about Bootstrap table

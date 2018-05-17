@@ -5,7 +5,7 @@ import s from '../../styles/step.style';
 export default function Step7({title}) {
   return (
     <div>
-      <h3>{title}</h3>
+      <h2>{title}</h2>
       <p style={s.p}>
         Next we'll add a list of variables that are changing during our experiment.
         Lets put these variables in a list, so its easy to see and understand each
@@ -13,7 +13,7 @@ export default function Step7({title}) {
         save and refresh the page.
       </p>
       <Gist id="7b025f886ab7eb7fdad3a99c12e23e8c"/>
-      <h5>The &lt;ul&gt; and &lt;li&gt; tags</h5>
+      <h3>The &lt;ul&gt; and &lt;li&gt; tags</h3>
       <p style={s.p}>
         These tags are responsible for showing lists. <code>&lt;ul&gt;</code> stands
         for unordered list, and <code>&lt;li&gt;</code> stands for list item. The
@@ -29,7 +29,7 @@ export default function Step7({title}) {
         more than three copy and paste the <code>&lt;li&gt;</code> tags to make your
         list longer.
       </p>
-      <h5>Listing Materials</h5>
+      <h3>Listing Materials</h3>
       <p style={s.p}>
         Lets copy the "Variables" title and list items HTML and paste below to create another
         list. We should change the title to "Materials". See the code example below for

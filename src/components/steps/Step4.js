@@ -5,7 +5,7 @@ import s from '../../styles/step.style';
 export default function Step4({title}) {
   return (
     <div>
-      <h3>{title}</h3>
+      <h2>{title}</h2>
       <p style={s.p}>
         Lets open our <code>site.html</code> file with Sublime Text:
       </p>
@@ -22,7 +22,7 @@ export default function Step4({title}) {
         of your science project.
       </p>
       <Gist id='2ac195082de15a5ff908bfcdb9340730'/>
-      <h5>Viewing your Site</h5>
+      <h3>Viewing your Site</h3>
       <p style={s.p}>
         Lets open our <code>site.html</code> file with Chrome:
       </p>
@@ -36,7 +36,7 @@ export default function Step4({title}) {
         your science project title at the top! If you look at the browser tab,
         you'll see your project title there too.
       </p>
-      <h5>Which title is which?</h5>
+      <h3>Which title is which?</h3>
       <p style={s.p}>
         Change the text in the <code>title</code> tag, and the <code>h1</code> tag
         to figure out which title corresponds to the browser tab, and the title

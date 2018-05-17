@@ -33,7 +33,7 @@ export default function App({ match }) {
 
   return (
     <div style={s.root}>
-      <h2>SEA Website Tutorial</h2>
+      <h1>SEA Website Tutorial</h1>
       <Interactive
         as="a"
         href="https://github.com/tallstak/sea-website-builder"

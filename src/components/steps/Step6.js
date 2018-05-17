@@ -5,7 +5,7 @@ import s from '../../styles/step.style';
 export default function Step6({title}) {
   return (
     <div>
-      <h3>{title}</h3>
+      <h2>{title}</h2>
       <p style={s.p}>
         Lets play with the font on our site. So far it will only show up on
         our title, but we'll be adding plenty of text later on, but why not have

@@ -5,7 +5,7 @@ import s from '../../styles/step.style';
 export default function Step1({title}) {
   return (
     <div>
-      <h3>{title}</h3>
+      <h2>{title}</h2>
       <p style={s.p}>
         Lets get started by downloading some tools that will help us build
         a site with your Chromebooks. The good news is, you already have the

@@ -5,7 +5,7 @@ import s from '../../styles/step.style';
 export default function Step3({title}) {
   return (
     <div>
-      <h3>{title}</h3>
+      <h2>{title}</h2>
       <p style={s.p}>
         We'll get started by creating two files in the <code>Downloads</code>
         folder of your Chromebook by doing the following:

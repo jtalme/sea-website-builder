@@ -6,7 +6,7 @@ import s from '../../styles/step.style';
 export default function Step13({title}) {
   return (
     <div>
-      <h3>{title}</h3>
+      <h2>{title}</h2>
       <p style={s.p}>
         For the final paragraph on your site lets add a conclusion about your
         science project. A conclusion usually contains some information about the

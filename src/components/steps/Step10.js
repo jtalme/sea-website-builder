@@ -5,7 +5,7 @@ import s from '../../styles/step.style';
 export default function Step10({title}) {
   return (
     <div>
-      <h3>{title}</h3>
+      <h2>{title}</h2>
       <p style={s.p}>
         We can continue to apply styles to our individual page elemnents, or we can
         import a third party script that will give us a head start. Meet

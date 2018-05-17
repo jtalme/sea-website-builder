@@ -4,7 +4,7 @@ import s from '../../styles/step.style';
 export default function Step2({title}) {
   return (
     <div>
-      <h3>{title}</h3>
+      <h2>{title}</h2>
       <p style={s.p}>
         <b>H</b>yper<br/>
         <b>T</b>ext<br/>
@@ -27,7 +27,7 @@ export default function Step2({title}) {
         wide an image should be, even whether or not an image should have a border,
         and how thick and what color.
       </p>
-      <h5>CSS and HTML Continued...</h5>
+      <h3>CSS and HTML Continued...</h3>
       <p style={s.p}>
         There are a lot of good HTML and CSS sites and tutorials out there
         created by folks that know way more than me, and are much more helpful!

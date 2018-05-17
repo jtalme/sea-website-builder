@@ -5,7 +5,7 @@ import s from '../../styles/step.style';
 export default function Step11({title}) {
   return (
     <div>
-      <h3>{title}</h3>
+      <h2>{title}</h2>
       <p style={s.p}>
         Lets continue adding content to your page. Now that we've provided enough content
         to teach someone how to setup and run your experiment, lets add the results from
@@ -31,7 +31,7 @@ export default function Step11({title}) {
         and refresh your page in Chrome.
       </p>
       <Gist id="99cbd983d88cf4b75d9c270a8d2a8a9b"/>
-      <h5>HTML Table Tags</h5>
+      <h3>HTML Table Tags</h3>
       <p style={s.p}>
         Do you see the "Data Table" title and a table with 4 rows of data? We used several
         HTML tags to create this table, here is a breakdown of each tag used:
@@ -69,7 +69,7 @@ export default function Step11({title}) {
         table and is displaying on your page? If you're confused feel free to ask a
         friend or a mentor for some help!
       </p>
-      <h5>Table Data</h5>
+      <h3>Table Data</h3>
       <p style={s.p}>
         Replace the text in the table header cells with your column names. You may need fewer
         or more columns than the provided table template. Can you figure out how to add
