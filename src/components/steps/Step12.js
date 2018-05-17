@@ -81,7 +81,7 @@ export default function Step11({title}) {
         the page in Chrome.
       </p>
       <p style={s.p}>
-        Move on to the next step where we'll use Bootstrap to style the table.
+        Move on to the next step where we'll style the table.
       </p>
     </div>
   );

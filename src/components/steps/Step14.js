@@ -25,8 +25,9 @@ export default function Step13({title}) {
       </p>
       <Gist id="91dcb86890b994f552bb2586e1c42c95"/>
       <p style={s.p}>
-        After you have filled in the conclusion, lets move on to the next step to add
-        some images and gifs!!!
+        Congrats, you built your own science project site! Continue exploring HTML
+        and CSS tutorials to learn more. There is tons more you can do
+        with <a href=""/> too!
       </p>
     </div>
   );

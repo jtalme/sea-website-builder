@@ -17,13 +17,18 @@ export default function Step15({title}) {
           file under the existing <code>&lt;img&gt;</code> tag.<br/>
           <code>&lt;img src="PASTE LINK BETWEEN THESE QUOTES" /&gt;</code>
         </li>
-        <li>Use Google to find a picture relevant to your topic.</li>
+        <li>
+          Use Google to find a picture that you like and might help describe your
+          science project
+        </li>
         <li>Right-click on the image you found and select "Copy Image Address"</li>
         <li>
           Paste the image address you copied into the <code>src=</code> attribute
           of the <code>&lt;img&gt;</code> tag you just added to your site.
         </li>
-        <li>Save your <code>site.html</code> file and refresh your page.</li>
+        <li>
+          Save your <code>site.html</code> file in Caret, and refresh your tab in Chrome
+        </li>
       </ol>
       <p style={s.p}>
         Is your image showing on your page? Is the image the same size as the image
@@ -31,9 +36,7 @@ export default function Step15({title}) {
         <code>&lt;img&gt;</code> HTML elements, yay!
       </p>
       <p style={s.p}>
-        Congrats, you built your own science project site! Continue exploring HTML
-        and CSS tutorials to learn more. There is tons more you can do
-        with <a href=""/> too!
+        Lets move on to the next step to add a table with data.
       </p>
     </div>
   );

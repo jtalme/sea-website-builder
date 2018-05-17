@@ -29,7 +29,7 @@ export default function Step9({title}) {
         refresh your <code>site.html</code> tab in Chrome to see your changes.
       </p>
       <p style={s.p}>
-        Lets take a breath to apply some styling before we continue adding more content.
+        Lets take a breath from writing about our project to add some pictures!
       </p>
     </div>
   );
