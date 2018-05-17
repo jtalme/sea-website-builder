@@ -79,7 +79,7 @@ const ExampleSiteText = () => (
       <li>Run and eat and run!</li>
     </ol>
     <h2>Data</h2>
-    <table className="table table-bordered table-striped">
+    <table className="table table-bordered">
       <thead>
         <tr>
           <th scope="col">Run #</th>
