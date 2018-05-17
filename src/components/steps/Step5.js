@@ -41,7 +41,10 @@ export default function Step5({title}) {
         <code>style.css</code> file. Remember to save the file, and refresh
         the page to load your changes.
       </p>
-      <a href="https://www.w3schools.com/colors/colors_picker.asp">Color Picker</a>
+      <a
+        href="https://www.w3schools.com/colors/colors_picker.asp"
+        target="_blank"
+      >Color Picker</a>
       <p style={s.p}>
         While we're playing with colors, change the color value in
         the <code>background-color</code> CSS rule too!

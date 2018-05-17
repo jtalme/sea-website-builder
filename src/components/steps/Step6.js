@@ -12,7 +12,8 @@ export default function Step6({title}) {
         some fun right now?!?
       </p>
       <ol>
-        <li>Open a new Chrome tab and go to <a href='https://fonts.google.com/'>Google Fonts</a></li>
+        <li>
+          Open a new Chrome tab and go to <a href='https://fonts.google.com/' target="_blank">Google Fonts</a></li>
         <li>
           Find a font you like, and click the red plus buttons, this will put
           the font in a tray in the bottom of your browser window.
