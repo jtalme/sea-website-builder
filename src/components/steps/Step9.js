@@ -22,6 +22,13 @@ export default function Step9({title}) {
         render with a number prefix to more clearly show their order.
       </p>
       <p style={s.p}>
+        Replace the <code>[step name]</code> text
+        and <code>[step description]</code> text with variable names and descriptions
+        that will help others understand the variables and why they're important to
+        your project. As usual, save your <code>site.html</code> file in Care, and
+        refresh your <code>site.html</code> tab in Chrome to see your changes.
+      </p>
+      <p style={s.p}>
         Lets take a breath to apply some styling before we continue adding more content.
       </p>
     </div>
